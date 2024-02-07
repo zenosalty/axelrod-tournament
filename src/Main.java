@@ -26,7 +26,6 @@ public class Main {
         new Match(random, always_cooperate, rounds);
         new Match(random, always_defect, rounds);
         new Match(random, friedman, rounds);
-
         System.out.println("TFT: " + tit_for_tat.getScore());
         System.out.println("ADF: " + always_defect.getScore());
         System.out.println("ACP: " + always_cooperate.getScore());
