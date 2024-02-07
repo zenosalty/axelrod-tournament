@@ -12,7 +12,6 @@
 package strategies.blind;
 
 import strategies.Strategy;
-
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Random implements Strategy {

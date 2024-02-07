@@ -1,7 +1,5 @@
 package strategies.prescient;
 
-import strategies.Strategy;
-
 public class Friedman extends PrescientStrategy {
 
     public Friedman() {

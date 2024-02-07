@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/blind/AlwaysCooperate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/blind/AlwaysDefect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/blind/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/Joss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/NonForgivingSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/PrescientStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/Sample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/TitForTat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Trying to push on remote repo">
+      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/blind/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +64,36 @@
       <workItem from="1706563969538" duration="22000" />
       <workItem from="1706606973592" duration="2073000" />
       <workItem from="1707319125265" duration="653000" />
+      <workItem from="1707320029851" duration="697000" />
+      <workItem from="1707338211903" duration="2048000" />
     </task>
+    <task id="LOCAL-00001" summary="Trying to push on remote repo">
+      <option name="closed" value="true" />
+      <created>1707320107085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707320107085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trying to push on remote repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to push on remote repo" />
   </component>
 </project>
