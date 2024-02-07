@@ -28,9 +28,9 @@ public class Main {
         new Match(random, friedman, rounds);
 
         System.out.println("TFT: " + tit_for_tat.getScore());
-        System.out.println("AD:  " + always_defect.getScore());
-        System.out.println("AC:  " + always_cooperate.getScore());
-        System.out.println("F:   " + friedman.getScore());
-        System.out.println("R:   " + random.getScore());
+        System.out.println("ADF: " + always_defect.getScore());
+        System.out.println("ACP: " + always_cooperate.getScore());
+        System.out.println("FRD: " + friedman.getScore());
+        System.out.println("RND: " + random.getScore());
     }
 }
