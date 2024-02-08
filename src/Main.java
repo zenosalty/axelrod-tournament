@@ -19,5 +19,7 @@ public class Main {
 
         m.setPlayers(tit_for_tat, random);
         m.fight(rounds);
+
+        System.out.println(tit_for_tat.getScore() + " " + random.getScore());
     }
 }

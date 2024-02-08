@@ -11,4 +11,8 @@ public class TitForTat extends PrescientStrategy {
     public void prepareNextDecision(Outcome o) {
         next_decision = o;
     }
+
+    //public String toString() {
+    //    return "Tit For Tat";
+    //}
 }

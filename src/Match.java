@@ -50,6 +50,9 @@ public class Match {
             p1_outcome = p1.getStrategy().decide();
             p2_outcome = p2.getStrategy().decide();
 
+            t1[i] = p1_outcome == Outcome.COOPERATE ? 'C' : 'D';
+            t2[i] = p2_outcome == Outcome.COOPERATE ? 'C' : 'D';
+
             updatePoints(p1_outcome, p2_outcome);
 
             if (p1.getStrategy() instanceof PrescientStrategy)
@@ -57,6 +60,18 @@ public class Match {
             if (p2.getStrategy() instanceof PrescientStrategy)
                 ((PrescientStrategy) p2.getStrategy()).prepareNextDecision(p1_outcome);
         }
+
+        System.out.print(p1.getClass()+ ":\t");
+        for (int i = 0; i < rounds; i++) {
+            System.out.print(t1[i] + " ");
+        }
+        System.out.println();
+        System.out.print(p2.getClass() + ":\t");
+        for (int i = 0; i < rounds; i++) {
+            System.out.print(t2[i] + " ");
+        }
+
+        System.out.println();
     }
     
     public void setFirstPlayer(Player p) {
