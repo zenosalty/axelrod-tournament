@@ -11,12 +11,13 @@
 
 package strategies.blind;
 
+import strategies.Outcome;
 import strategies.Strategy;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Random implements Strategy {
     @Override
-    public boolean decide() {
-        return ThreadLocalRandom.current().nextBoolean();
+    public Outcome decide() {
+        return ThreadLocalRandom.current().nextBoolean() ? Outcome.COOPERATE : Outcome.DEFECT;
     }
 }

@@ -18,6 +18,7 @@
 
 package strategies.prescient;
 
+import strategies.Outcome;
 import strategies.Strategy;
 
 public class Sample extends PrescientStrategy {
@@ -29,20 +30,20 @@ public class Sample extends PrescientStrategy {
         previous_defections = 0;
     }
 
-    public void prepareNextDecision(boolean opponents_cooperates) {
-        if (opponents_cooperates)
+    public void prepareNextDecision(Outcome o) {
+        if (Outcome.COOPERATE == o)
             previous_defections = 0;
         else
             previous_defections++;
 
         if (previous_defections == 2) {
-            next_decision = false;
+            next_decision = Outcome.DEFECT;
             //This version is forgiving:
             //after two subsequent defections
             //the counter immediately resets.
             previous_defections = 0;
         } else {
-            next_decision = true;
+            next_decision = Outcome.COOPERATE;
         }
     }
 }

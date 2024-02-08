@@ -12,6 +12,8 @@
 
 package strategies.prescient;
 
+import strategies.Outcome;
+
 public class Joss extends PrescientStrategy {
 
     public Joss() {
@@ -19,11 +21,11 @@ public class Joss extends PrescientStrategy {
     }
 
     @Override
-    public void prepareNextDecision(boolean opponent_cooperates) {
+    public void prepareNextDecision(Outcome o) {
 
-        next_decision = opponent_cooperates;
+        next_decision = o;
 
-        if (opponent_cooperates && (int)(Math.random() * 10 + 1) == 1)
-            next_decision = false;
+        if (Outcome.COOPERATE == o && (int)(Math.random() * 10 + 1) == 1)
+            next_decision = Outcome.DEFECT;
     }
 }

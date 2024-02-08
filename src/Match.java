@@ -1,4 +1,4 @@
-import strategies.Strategy;
+import strategies.Outcome;
 import strategies.prescient.PrescientStrategy;
 
 public class Match {
@@ -8,51 +8,67 @@ public class Match {
     static final int GAIN = 3;
     static final int SHARE = 0;
 
-    private Player first;
-    private Player second;
+    private Player p1;
+    private Player p2;
 
-    public Match(Player first, Player second) {
-        this.first = first;
-        this.second = second;
+    private char[] t1;
+    private char[] t2;
+    
+    public Match() {}
+
+    public Match(Player p1, Player p2) {
+        this.p1 = p1;
+        this.p2 = p2;
     }
 
-    public Match(Player first, Player second, int rounds) {
-        this(first, second);
-        fight(rounds);
-    }
-
-    private void updatePoints(boolean p1_outcome, boolean p2_outcome) {
-        if (p1_outcome && p2_outcome) {
-            first.addPoints(PRIZE);
-            second.addPoints(PRIZE);
-        } else if (p1_outcome) {
-            first.addPoints(LOSS);
-            second.addPoints(GAIN);
-        } else if (p2_outcome) {
-            first.addPoints(GAIN);
-            second.addPoints(LOSS);
+    private void updatePoints(Outcome o1, Outcome o2) {
+        if (Outcome.COOPERATE == o1 && o1 == o2) {
+            p1.addPoints(PRIZE);
+            p2.addPoints(PRIZE);
+        } else if (Outcome.COOPERATE == o1) {
+            p1.addPoints(LOSS);
+            p2.addPoints(GAIN);
+        } else if (Outcome.COOPERATE == o2) {
+            p1.addPoints(GAIN);
+            p2.addPoints(LOSS);
         } else {
-            first.addPoints(SHARE);
-            second.addPoints(SHARE);
+            p1.addPoints(SHARE);
+            p2.addPoints(SHARE);
         }
     }
 
     public void fight(int rounds) {
 
-        boolean p1_outcome;
-        boolean p2_outcome;
+        t1 = new char[rounds];
+        t2 = new char[rounds];
+
+        Outcome p1_outcome;
+        Outcome p2_outcome;
 
         for (int i = 0; i < rounds; i++) {
 
-            p1_outcome = first.getStrategy().decide();
-            p2_outcome = second.getStrategy().decide();
+            p1_outcome = p1.getStrategy().decide();
+            p2_outcome = p2.getStrategy().decide();
 
             updatePoints(p1_outcome, p2_outcome);
 
-            if (first.getStrategy() instanceof PrescientStrategy)
-                ((PrescientStrategy) first.getStrategy()).prepareNextDecision(p2_outcome);
-            if (second.getStrategy() instanceof PrescientStrategy)
-                ((PrescientStrategy) second.getStrategy()).prepareNextDecision(p1_outcome);
+            if (p1.getStrategy() instanceof PrescientStrategy)
+                ((PrescientStrategy) p1.getStrategy()).prepareNextDecision(p2_outcome);
+            if (p2.getStrategy() instanceof PrescientStrategy)
+                ((PrescientStrategy) p2.getStrategy()).prepareNextDecision(p1_outcome);
         }
+    }
+    
+    public void setFirstPlayer(Player p) {
+        p1 = p;
+    }
+
+    public void setSecondPlayer(Player p) {
+        p2 = p;
+    }
+
+    public void setPlayers(Player p1, Player p2) {
+        this.p1 = p1;
+        this.p2 = p2;
     }
 }

@@ -1,10 +1,11 @@
 package strategies.blind;
 
 import strategies.Strategy;
+import strategies.Outcome;
 
 public class AlwaysCooperate implements Strategy {
     @Override
-    public boolean decide() {
-        return true;
+    public Outcome decide() {
+        return Outcome.COOPERATE;
     }
 }

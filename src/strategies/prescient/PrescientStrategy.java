@@ -1,18 +1,19 @@
 package strategies.prescient;
 
+import strategies.Outcome;
 import strategies.Strategy;
 
 public abstract class PrescientStrategy implements Strategy {
 
-    protected boolean next_decision;
+    protected Outcome next_decision;
 
     public PrescientStrategy() {
-        next_decision = true;
+        next_decision = Outcome.COOPERATE;
     }
 
-    public abstract void prepareNextDecision(boolean opponent_cooperates);
+    public abstract void prepareNextDecision(Outcome o);
 
-    public boolean decide() {
+    public Outcome decide() {
         return next_decision;
     }
 }

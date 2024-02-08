@@ -1,10 +1,12 @@
 package strategies.prescient;
 
+import strategies.Outcome;
+
 public class NonForgivingSample extends Sample {
 
-    public boolean decide() {
+    public Outcome decide() {
         //This version is non-forgiving:
         //if the opponent perseveres
-        return previous_defections < 2;
+        return previous_defections < 2 ? Outcome.COOPERATE : Outcome.DEFECT;
     }
 }

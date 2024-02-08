@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Some tests" />
+    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Fix branch">
+      <change afterPath="$PROJECT_DIR$/src/Outcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Match.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +64,8 @@
       <workItem from="1707319125265" duration="653000" />
       <workItem from="1707320029851" duration="697000" />
       <workItem from="1707338211903" duration="2207000" />
+      <workItem from="1707340620919" duration="421000" />
+      <workItem from="1707424995756" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to push on remote repo">
       <option name="closed" value="true" />
@@ -76,7 +83,31 @@
       <option name="project" value="LOCAL" />
       <updated>1707340427052</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix branch">
+      <option name="closed" value="true" />
+      <created>1707340698698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707340698698</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix branch">
+      <option name="closed" value="true" />
+      <created>1707340863203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707340863203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix branch">
+      <option name="closed" value="true" />
+      <created>1707340942226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707340942226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Trying to push on remote repo" />
     <MESSAGE value="Some tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some tests" />
+    <MESSAGE value="Fix branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix branch" />
   </component>
 </project>

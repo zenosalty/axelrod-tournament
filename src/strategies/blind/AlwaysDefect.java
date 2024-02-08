@@ -1,10 +1,11 @@
 package strategies.blind;
 
+import strategies.Outcome;
 import strategies.Strategy;
 
 public class AlwaysDefect implements Strategy {
     @Override
-    public boolean decide() {
-        return false;
+    public Outcome decide() {
+        return Outcome.DEFECT;
     }
 }

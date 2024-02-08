@@ -1,5 +1,7 @@
 package strategies.prescient;
 
+import strategies.Outcome;
+
 public class Friedman extends PrescientStrategy {
 
     public Friedman() {
@@ -7,8 +9,8 @@ public class Friedman extends PrescientStrategy {
     }
 
     @Override
-    public void prepareNextDecision(boolean opponent_cooperates) {
-        if (!opponent_cooperates)
-            next_decision = false;
+    public void prepareNextDecision(Outcome o) {
+        if (Outcome.DEFECT == o)
+            next_decision = Outcome.DEFECT;
     }
 }

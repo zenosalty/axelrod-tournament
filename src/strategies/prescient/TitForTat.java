@@ -1,12 +1,14 @@
 package strategies.prescient;
 
+import strategies.Outcome;
+
 public class TitForTat extends PrescientStrategy {
 
     public TitForTat() {
         super();
     }
 
-    public void prepareNextDecision(boolean opponent_cooperates) {
-        next_decision = opponent_cooperates;
+    public void prepareNextDecision(Outcome o) {
+        next_decision = o;
     }
 }

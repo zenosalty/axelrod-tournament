@@ -15,22 +15,9 @@ public class Main {
         Player friedman = new Player(new Friedman());
         Player random = new Player(new Random());
 
-        new Match(tit_for_tat, always_defect, rounds);
-        new Match(tit_for_tat, always_cooperate, rounds);
-        new Match(tit_for_tat, friedman, rounds);
-        new Match(always_defect, always_cooperate, rounds);
-        new Match(always_defect, friedman, rounds);
-        new Match(always_cooperate, friedman);
+        Match m = new Match();
 
-        new Match(random, tit_for_tat, rounds);
-        new Match(random, always_cooperate, rounds);
-        new Match(random, always_defect, rounds);
-        new Match(random, friedman, rounds);
-
-        System.out.println("TFT: " + tit_for_tat.getScore());
-        System.out.println("ADF: " + always_defect.getScore());
-        System.out.println("ACP: " + always_cooperate.getScore());
-        System.out.println("FRD: " + friedman.getScore());
-        System.out.println("RND: " + random.getScore());
+        m.setPlayers(tit_for_tat, random);
+        m.fight(rounds);
     }
 }
