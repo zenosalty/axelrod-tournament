@@ -9,4 +9,8 @@ public class NonForgivingSample extends Sample {
         //if the opponent perseveres
         return previous_defections < 2 ? Outcome.COOPERATE : Outcome.DEFECT;
     }
+
+    public String toString() {
+        return "NonForgivingSample";
+    }
 }

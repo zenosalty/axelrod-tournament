@@ -28,4 +28,8 @@ public class Joss extends PrescientStrategy {
         if (Outcome.COOPERATE == o && (int)(Math.random() * 10 + 1) == 1)
             next_decision = Outcome.DEFECT;
     }
+
+    public String toString() {
+        return "Joss";
+    }
 }

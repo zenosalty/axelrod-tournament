@@ -13,4 +13,8 @@ public class Friedman extends PrescientStrategy {
         if (Outcome.DEFECT == o)
             next_decision = Outcome.DEFECT;
     }
+
+    public String toString() {
+        return "Friedman";
+    }
 }

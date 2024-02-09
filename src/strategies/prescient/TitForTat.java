@@ -12,7 +12,7 @@ public class TitForTat extends PrescientStrategy {
         next_decision = o;
     }
 
-    //public String toString() {
-    //    return "Tit For Tat";
-    //}
+    public String toString() {
+        return "Tit For Tat";
+    }
 }

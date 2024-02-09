@@ -8,4 +8,8 @@ public class AlwaysCooperate implements Strategy {
     public Outcome decide() {
         return Outcome.COOPERATE;
     }
+
+    public String toString() {
+        return "Always Cooperate";
+    }
 }

@@ -8,4 +8,8 @@ public class AlwaysDefect implements Strategy {
     public Outcome decide() {
         return Outcome.DEFECT;
     }
+
+    public String toString() {
+        return "Always Defect";
+    }
 }

@@ -20,4 +20,8 @@ public class Random implements Strategy {
     public Outcome decide() {
         return ThreadLocalRandom.current().nextBoolean() ? Outcome.COOPERATE : Outcome.DEFECT;
     }
+
+    public String toString() {
+        return "Random";
+    }
 }

@@ -1,4 +1,3 @@
-import strategies.Strategy;
 import strategies.blind.AlwaysCooperate;
 import strategies.blind.AlwaysDefect;
 import strategies.blind.Random;
@@ -17,9 +16,9 @@ public class Main {
 
         Match m = new Match();
 
-        m.setPlayers(tit_for_tat, random);
+        m.setPlayers(tit_for_tat, always_cooperate);
         m.fight(rounds);
 
-        System.out.println(tit_for_tat.getScore() + " " + random.getScore());
+        System.out.println(tit_for_tat.getScore() + " " + always_cooperate.getScore());
     }
 }

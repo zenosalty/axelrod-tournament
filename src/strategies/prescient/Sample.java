@@ -46,4 +46,8 @@ public class Sample extends PrescientStrategy {
             next_decision = Outcome.COOPERATE;
         }
     }
+
+    public String toString() {
+        return "Sample";
+    }
 }

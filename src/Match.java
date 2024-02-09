@@ -61,12 +61,12 @@ public class Match {
                 ((PrescientStrategy) p2.getStrategy()).prepareNextDecision(p1_outcome);
         }
 
-        System.out.print(p1.getClass()+ ":\t");
+        System.out.print(p1.getStrategy() + ":\t");
         for (int i = 0; i < rounds; i++) {
             System.out.print(t1[i] + " ");
         }
         System.out.println();
-        System.out.print(p2.getClass() + ":\t");
+        System.out.print(p2.getStrategy() + ":\t");
         for (int i = 0; i < rounds; i++) {
             System.out.print(t2[i] + " ");
         }
