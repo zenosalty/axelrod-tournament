@@ -1,3 +1,10 @@
+/*
+ * The counterpart of AlwaysDefect,
+ * AlwaysCooperate hates being angry
+ * and cooperates regardless of its
+ * opponents choices.
+ */
+
 package strategies.blind;
 
 import strategies.Strategy;

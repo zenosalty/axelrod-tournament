@@ -1,3 +1,11 @@
+/*
+ * Friedman makes things clear to its opponent:
+ * Friedman will start cooperating, and it will
+ * continue to do so as long as the opponent
+ * does not retaliate. Otherwise, Friedman takes
+ * its revenge by defecting till the end.
+ */
+
 package strategies.prescient;
 
 import strategies.Outcome;

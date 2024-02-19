@@ -1,3 +1,8 @@
+/*
+ * Temporary class for storing strategy-points
+ * associations.
+ */
+
 import strategies.Strategy;
 
 public class Player {
