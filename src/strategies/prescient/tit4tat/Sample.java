@@ -14,12 +14,16 @@
  * Round: 1 2 3 4 5 6 7
  *     S: C C C C D C C
  *     O: D C D D C C C
+ *
+ * It turns out that Sample is
+ * actually the same strategy
+ * as Tit-For-Two-Tat
  */
 
-package strategies.prescient;
+package strategies.prescient.tit4tat;
 
 import strategies.Outcome;
-import strategies.Strategy;
+import strategies.prescient.PrescientStrategy;
 
 public class Sample extends PrescientStrategy {
 
@@ -36,15 +40,7 @@ public class Sample extends PrescientStrategy {
         else
             previous_defections++;
 
-        if (previous_defections == 2) {
-            next_decision = Outcome.DEFECT;
-            //This version is forgiving:
-            //after two subsequent defections
-            //the counter immediately resets.
-            previous_defections = 0;
-        } else {
-            next_decision = Outcome.COOPERATE;
-        }
+        next_decision = previous_defections >= 2 ? Outcome.DEFECT : Outcome.COOPERATE;
     }
 
     public String toString() {

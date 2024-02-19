@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Re-designing Match">
+    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Added toString() override to strategies">
+      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/TitForXTat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/Outcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/Outcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/AlwaysCooperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/AlwaysCooperate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/AlwaysDefect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/AlwaysDefect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Joss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/Joss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/NonForgivingSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/NonForgivingSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/TitForTat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/TitForTat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/NonForgivingSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/PrescientStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/PrescientStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/TitForTat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/TitForTat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +21,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2bdgPaxOf95Ju9LEFxOpAWQ7Pm0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,7 +74,9 @@
       <workItem from="1707340620919" duration="421000" />
       <workItem from="1707424995756" duration="2414000" />
       <workItem from="1707427445686" duration="24000" />
-      <workItem from="1707474727019" duration="494000" />
+      <workItem from="1707474727019" duration="759000" />
+      <workItem from="1707928833683" duration="2222000" />
+      <workItem from="1708336025504" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to push on remote repo">
       <option name="closed" value="true" />
@@ -133,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707427209326</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added toString() override to strategies">
+      <option name="closed" value="true" />
+      <created>1707475422578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707475422578</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +165,7 @@
     <MESSAGE value="Fix branch" />
     <MESSAGE value="Changes to outcome values" />
     <MESSAGE value="Re-designing Match" />
-    <option name="LAST_COMMIT_MESSAGE" value="Re-designing Match" />
+    <MESSAGE value="Added toString() override to strategies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added toString() override to strategies" />
   </component>
 </project>

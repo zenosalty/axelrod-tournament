@@ -8,6 +8,7 @@ public abstract class PrescientStrategy implements Strategy {
     protected Outcome next_decision;
 
     public PrescientStrategy() {
+        // by default, every prescient strategy is nice
         next_decision = Outcome.COOPERATE;
     }
 

@@ -1,6 +1,7 @@
-package strategies.prescient;
+package strategies.prescient.tit4tat;
 
 import strategies.Outcome;
+import strategies.prescient.PrescientStrategy;
 
 public class TitForTat extends PrescientStrategy {
 
