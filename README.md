@@ -1,4 +1,4 @@
-# The Axelrod's Tournament (1980)
+# The Axelrod's Tournament
 
 Welcome to the Axelrod's tournament. This work is heavily inspired by *The Evolution of Trust* by Nicky Case and *What Game Theory Reveals About Life, The Universe and Everything* by Derek A. Muller (*Veritasium* on YT).
 
