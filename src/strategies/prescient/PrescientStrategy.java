@@ -1,8 +1,8 @@
 /*
  * Prescient Strategies are named thus after
  * their ability to make sophisticated choices
- * by considering the outcomes of their opponents
- * in previous rounds.
+ * by considering the actions performed by
+ * other opponents in previous rounds.
  *   Except for the first round, the following
  * outcomes reflect how the next_decision had
  * been determined based on the opponent's
