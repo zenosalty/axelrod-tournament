@@ -27,4 +27,8 @@ public class Pendulum implements Strategy {
 
         return nice ? Outcome.COOPERATE : Outcome.DEFECT;
     }
+
+    public String toString() {
+        return "Pnd";
+    }
 }

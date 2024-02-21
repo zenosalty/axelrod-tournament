@@ -22,6 +22,6 @@ public class Random implements Strategy {
     }
 
     public String toString() {
-        return "Random";
+        return "Rnd";
     }
 }

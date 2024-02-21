@@ -17,6 +17,6 @@ public class AlwaysDefect implements Strategy {
     }
 
     public String toString() {
-        return "Always Defect";
+        return "ADf";
     }
 }

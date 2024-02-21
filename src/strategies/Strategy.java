@@ -16,6 +16,7 @@
 
 package strategies;
 
+@FunctionalInterface
 public interface Strategy {
     Outcome decide();
 }

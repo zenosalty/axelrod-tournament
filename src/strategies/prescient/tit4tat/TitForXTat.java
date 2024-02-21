@@ -60,6 +60,6 @@ public class TitForXTat extends PrescientStrategy {
     }
 
     public String toString() {
-        return "Tit-For-" + x + "-Tat";
+        return "TF" + x + "T";
     }
 }

@@ -22,6 +22,6 @@ public class TitForTat extends PrescientStrategy {
     }
 
     public String toString() {
-        return "Tit For Tat";
+        return "TFT";
     }
 }

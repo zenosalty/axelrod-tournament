@@ -17,6 +17,6 @@ public class AlwaysCooperate implements Strategy {
     }
 
     public String toString() {
-        return "Always Cooperate";
+        return "ACo";
     }
 }

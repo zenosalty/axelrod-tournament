@@ -33,6 +33,6 @@ public class Joss extends PrescientStrategy {
     }
 
     public String toString() {
-        return "Joss";
+        return "Jss";
     }
 }

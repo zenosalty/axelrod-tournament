@@ -23,6 +23,6 @@ public class Friedman extends PrescientStrategy {
     }
 
     public String toString() {
-        return "Friedman";
+        return "Fdm";
     }
 }

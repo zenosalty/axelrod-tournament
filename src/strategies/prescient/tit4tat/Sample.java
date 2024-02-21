@@ -44,6 +44,6 @@ public class Sample extends PrescientStrategy {
     }
 
     public String toString() {
-        return "Sample";
+        return "Smp";
     }
 }

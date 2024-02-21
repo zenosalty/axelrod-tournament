@@ -85,6 +85,6 @@ public class XTitForTat extends PrescientStrategy {
     }
 
     public String toString() {
-        return x + "-Tit-For-Tat";
+        return x + "TFT";
     }
 }

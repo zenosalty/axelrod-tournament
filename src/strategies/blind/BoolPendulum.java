@@ -8,6 +8,7 @@ package strategies.blind;
 import strategies.Outcome;
 import strategies.Strategy;
 
+@Deprecated
 public class BoolPendulum implements Strategy {
 
     private boolean move;
@@ -20,5 +21,9 @@ public class BoolPendulum implements Strategy {
     public Outcome decide() {
         move = !move;
         return move ? Outcome.DEFECT : Outcome.COOPERATE;
+    }
+
+    public String toString() {
+        return "BPn";
     }
 }
