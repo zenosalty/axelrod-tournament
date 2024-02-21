@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Tit4Tat family added (TitForXTat generalization was included)">
+    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Added additional comments to Strategies and other classes">
+      <change afterPath="$PROJECT_DIR$/src/strategies/blind/BoolPendulum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/blind/Pendulum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/XTitForTat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/XTitForYTat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/Outcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/Outcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/AlwaysCooperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/AlwaysCooperate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/AlwaysDefect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/AlwaysDefect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Joss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/Joss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strategies/prescient/PrescientStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/PrescientStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/TitForTat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/TitForTat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,15 @@
       <workItem from="1707427445686" duration="24000" />
       <workItem from="1707474727019" duration="759000" />
       <workItem from="1707928833683" duration="2222000" />
-      <workItem from="1708336025504" duration="3865000" />
+      <workItem from="1708336025504" duration="4473000" />
+      <workItem from="1708366875144" duration="3708000" />
+      <workItem from="1708378153310" duration="362000" />
+      <workItem from="1708378712437" duration="67000" />
+      <workItem from="1708417959126" duration="1136000" />
+      <workItem from="1708419287647" duration="5228000" />
+      <workItem from="1708429671290" duration="630000" />
+      <workItem from="1708453721937" duration="3862000" />
+      <workItem from="1708503295158" duration="3392000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to push on remote repo">
       <option name="closed" value="true" />
@@ -152,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708337007853</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added additional comments to Strategies and other classes">
+      <option name="closed" value="true" />
+      <created>1708342048493</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708342048493</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +193,7 @@
     <MESSAGE value="Re-designing Match" />
     <MESSAGE value="Added toString() override to strategies" />
     <MESSAGE value="Tit4Tat family added (TitForXTat generalization was included)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tit4Tat family added (TitForXTat generalization was included)" />
+    <MESSAGE value="Added additional comments to Strategies and other classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added additional comments to Strategies and other classes" />
   </component>
 </project>
