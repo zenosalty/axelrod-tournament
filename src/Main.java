@@ -1,6 +1,5 @@
 import strategies.blind.*;
 import strategies.prescient.Tester;
-import strategies.prescient.tit4tat.XTitForTat;
 
 public class Main {
     public static void main(String[] args) {

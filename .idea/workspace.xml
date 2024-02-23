@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Pendulum strategies added">
-      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/AlwaysCooperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/AlwaysCooperate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/AlwaysDefect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/AlwaysDefect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/BoolPendulum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/BoolPendulum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/Pendulum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/Pendulum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/blind/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/blind/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/Friedman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/Joss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/Joss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/TitForTat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/TitForTat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/TitForXTat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/TitForXTat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/XTitForTat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/XTitForTat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/XTitForYTat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/XTitForYTat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,36 +28,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bdgPaxOf95Ju9LEFxOpAWQ7Pm0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zenos/Desktop/untitled",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zenos/Desktop/untitled&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -111,6 +98,9 @@
       <workItem from="1708508359713" duration="746000" />
       <workItem from="1708514276779" duration="47000" />
       <workItem from="1708516647655" duration="2990000" />
+      <workItem from="1708592729838" duration="383000" />
+      <workItem from="1708593134316" duration="153000" />
+      <workItem from="1708695328728" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to push on remote repo">
       <option name="closed" value="true" />
