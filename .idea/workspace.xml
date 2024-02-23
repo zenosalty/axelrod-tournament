@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="Pendulum strategies added">
+    <list default="true" id="6854fa71-9f93-43c7-a705-c15d7108a167" name="Changes" comment="README links updated">
+      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/Simpleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/prescient/tit4tat/GenerousTitForTat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2bdgPaxOf95Ju9LEFxOpAWQ7Pm0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -101,6 +104,7 @@
       <workItem from="1708592729838" duration="383000" />
       <workItem from="1708593134316" duration="153000" />
       <workItem from="1708695328728" duration="7000" />
+      <workItem from="1708707646408" duration="1460000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to push on remote repo">
       <option name="closed" value="true" />
@@ -206,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708508527837</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="README links updated">
+      <option name="closed" value="true" />
+      <created>1708707702495</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708707702495</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +247,7 @@
     <MESSAGE value="Comments and minor changes" />
     <MESSAGE value="TFT generalizations" />
     <MESSAGE value="Pendulum strategies added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pendulum strategies added" />
+    <MESSAGE value="README links updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="README links updated" />
   </component>
 </project>
